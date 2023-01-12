@@ -1,0 +1,127 @@
+body {
+    background-image: url(./bg.png);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(50,47,48,255);
+}
+
+.homebutton {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 80px
+}
+
+#item {
+    width: 720px;
+    height: 560px;
+    background-image: url(./rolex.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px 7px;
+    margin-top: 70px;
+    overflow: hidden;
+    border: 1px 1px;
+    border-style: solid;
+
+}
+
+#item2{
+    width: 720px;
+    height: 560px;
+    background-image: url(./r-submariner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px 7px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px 1px;
+    border-style: solid;
+}
+
+#item3{
+    width: 720px;
+    height: 560px;
+    background-image: url(./r-daydate.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px 7px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px 1px;
+    border-style: solid;
+}
+
+#item4{
+    width: 720px;
+    height: 560px;
+    background-image: url(./r-datejust.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px 7px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 1px 1px;
+    border-style: solid;
+}
+
+.content {
+    margin-top: 265px;
+    background-color:ghostwhite;
+    border-bottom: 5px;
+    position: relative;
+    top: 230px;
+}
+
+p.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+p.card-text {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+}
+
+p.price {
+    font-family: 'Playfair Display', serif;
+    font-size:x-large;
+}
+
+.content:hover {
+    transform: translateY(-230px);
+    transition: 1s ease;
+}
+
+#item:hover {
+    transform: scale(1.03);
+    transition: 0.5s ease-in;
+}
+#item2:hover {
+    transform: scale(1.03);
+    transition: 0.5s ease-in;
+}
+#item3:hover {
+    transform: scale(1.03);
+    transition: 0.5s ease-in;
+}
+#item4:hover {
+    transform: scale(1.03);
+    transition: 0.5s ease-in;
+}
+
+footer {
+    height: 80px;
+    background-color:rgba(50,47,48,255)
+}
+
+.back-to-top {
+    position:static;
+}
